@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="02183006-ab52-4d6c-9d37-446515e77656" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kv/bucket.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/kv/bucket.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kv/registry.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/kv/registry.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/kv/supervisor.ex" beforeDir="false" afterPath="$PROJECT_DIR$/lib/kv/supervisor.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/kv/bucket_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/test/kv/bucket_test.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/kv/registry_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/test/kv/registry_test.exs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/kv_test.exs" beforeDir="false" afterPath="$PROJECT_DIR$/test/kv_test.exs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/kv/bucket_test.exs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -102,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/kv/supervisor.ex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -178,10 +173,10 @@
         <option value="$PROJECT_DIR$/test/kv/registry_test.exs" />
         <option value="$PROJECT_DIR$/test/kv_test.exs" />
         <option value="$PROJECT_DIR$/lib/kv/bucket_supervisor.ex" />
-        <option value="$PROJECT_DIR$/lib/kv/supervisor.ex" />
         <option value="$PROJECT_DIR$/lib/kv/registry.ex" />
         <option value="$PROJECT_DIR$/lib/kv/bucket.ex" />
         <option value="$PROJECT_DIR$/test/kv/bucket_test.exs" />
+        <option value="$PROJECT_DIR$/lib/kv/supervisor.ex" />
       </list>
     </option>
   </component>
@@ -244,7 +239,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545430600178" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545431465189" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -314,16 +309,15 @@
       <option name="presentableId" value="Default" />
       <updated>1544819825216</updated>
       <workItem from="1544819826649" duration="6497000" />
-      <workItem from="1545420565660" duration="9581000" />
+      <workItem from="1545420565660" duration="10445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16078000" />
+    <option name="totallyTimeSpent" value="16942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1160" y="23" width="1400" height="1336" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -404,20 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/kv/supervisor.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/kv/registry.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/kv/bucket.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -436,6 +416,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/kv/registry.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/kv/supervisor.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
         </state>
       </provider>
     </entry>
